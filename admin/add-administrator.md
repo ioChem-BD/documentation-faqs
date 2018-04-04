@@ -1,4 +1,5 @@
-Tou can create a new administrator account, you must have access to the ioChem-BD installation folder and move to the *browse/bin* subfolder. In this path, type the following command and follow the instructions.
+To create a new administrator account, you must have shell access to the ioChem-BD installation folder. Then, *cd* to the *browse/bin* subfolder. 
+On this path, type the following command and follow the instructions.
 
 ```(shell)
   $ cd browse/bin
