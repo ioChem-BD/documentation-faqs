@@ -1,5 +1,5 @@
 # General usage 
-* [Can't remember my password, how can I reset it?](first-question.md)
+* [Can't remember my password, how can I reset it?](/general/reset-password.md)
 
-# Platform administration
-
+# Administration
+* [Create administator account](/admin/add-administrator.md)
