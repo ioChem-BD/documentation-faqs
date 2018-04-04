@@ -1,5 +1,3 @@
-#### Publication fails with: ' *There has been an error retrieving Browse collection structure...*'
-
 This will usually happen the first time that we try to publish our
 calculation in the ioChem-BD system. When this message appears, 
 
