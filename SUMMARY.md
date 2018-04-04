@@ -1,5 +1,5 @@
-General usage 
+### General usage 
 * [Can't remember my password, how can I reset it?](/general/reset-password.md)
 
-Administration
+### Administration
 * [Create administator account](/admin/add-administrator.md)
