@@ -15,7 +15,7 @@ Update process must be performed with the service stopped.
 
 ```bash
 iochembd$  cd *IOCHEMBD_HOME*/apache-tomcat-7.0.37/bin/shutdown.sh
-... one minute after
+... wait one minute
 iochembd$  ps -eaf | grep tomcat
 ... if there is no running process it has stopped properly otherwise kill the process
 ```
@@ -25,6 +25,7 @@ Please review [backup script](https://documentation.iochem-bd.org/backup-policy.
 
 ###3. Run update script###
 The update script has been upgraded, please download the new one [here]() and replace the one inside  *IOCHEMBD_HOME*/updates folder
+
 Then run the utility:
 ```bash
 iochembd$   cd *IOCHEMBD_HOME*/updates
