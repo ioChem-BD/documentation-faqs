@@ -9,5 +9,5 @@
 ## Administration
 
 * [Create administator account](/admin/add-administrator.md)
-* [Update utility usage](update-current-distribution.md)
+* [Update platform](update-current-distribution.md)
 
