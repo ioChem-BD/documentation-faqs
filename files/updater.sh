@@ -79,7 +79,7 @@ fi
 #echo "Retrieving update file on "$PATCH_UPDATE_URL
 clean_house
 
-wget  --quiet $PATCH_UPDATE_URL
+wget --no-check-certificate --quiet $PATCH_UPDATE_URL
 capture_error $? "Error retrieving patch files on $PATCH_UPDATE_URL!"
 
 tar -xf $BASE_FOLDER/update.tar.gz
