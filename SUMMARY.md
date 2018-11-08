@@ -11,3 +11,7 @@
 * [Create administator account](/admin/add-administrator.md)
 * [Renew license file](/admin/renew-license-file.md)
 * [Update platform](/admin/update-current-distribution.md)
+
+## Errors
+
+* [A *User Email is required* error page appears after login](/errors/user-email-required.md)
