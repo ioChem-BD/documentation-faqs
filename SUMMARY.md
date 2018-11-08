@@ -14,4 +14,4 @@
 
 ## Errors
 
-* [A *User Email is required* error page appears after login](/errors/user-email-required.md)
+* [A 'User Email is required' error page appears after login](/errors/user-email-required.md)
