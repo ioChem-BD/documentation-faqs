@@ -88,9 +88,9 @@ capture_error $? "Error extracting update patch file on $BASE_FOLDER/update.tar.
 cd patches
 
 if [ -z "$CUSTOM_UPDATE_URL" ]; then
-  $BASE_FOLDER$JAVA_RELATIVE_PATH -jar updater.jar $BASE_FOLDER 
+  $BASE_FOLDER$JAVA_RELATIVE_PATH -jar -Dlog4j.configurationFile=resources/log4j2.xml updater.jar $BASE_FOLDER 
 else
-  $BASE_FOLDER$JAVA_RELATIVE_PATH -jar updater.jar $BASE_FOLDER $CUSTOM_UPDATE_URL
+  $BASE_FOLDER$JAVA_RELATIVE_PATH -jar -Dlog4j.configurationFile=resources/log4j2.xml updater.jar $BASE_FOLDER $CUSTOM_UPDATE_URL
 fi
 cd ..
 clean_house
