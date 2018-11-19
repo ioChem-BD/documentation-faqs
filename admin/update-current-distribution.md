@@ -39,6 +39,16 @@ In case you get an error updating the platform, please copy the output text from
 ###4. Start the server###
 If the update process ended successfully, the patch program will start the server automatically to apply latest updates.
 
+```bash
+17:01:09.543 [main] INFO  update.UpdatePatch -  Task: Running Ant target : update
+17:03:42.600 [main] INFO  utils.SqlRunner -     Running update vxxx.SetCalculationOrdering
+17:03:43.073 [main] INFO  update.UpdatePatch -  Task: Updating Browse dspace.cfg file
+17:03:43.120 [main] INFO  update.TomcatManager - Starting Apache Tomcat...  <== Server started
+17:03:43.128 [main] INFO  utils.Utils - Running command:[/home/iochembd/iochem-bd/apache-tomcat-7.0.37/bin/startup.sh]
+17:03:43.128 [main] INFO  update.UpdateProcess - ioChem-BD updated to latest version.
+Update process finished.
+```
+
 Otherwise, start it manually with the following commands:
 ```bash
 iochembd$   cd *IOCHEMBD_HOME*/apache-tomcat-7.0.37/bin
