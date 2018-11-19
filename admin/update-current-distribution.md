@@ -1,5 +1,3 @@
-#This update operation is under revision, please don't apply it until otherwise advised  
-
 The update process of ioChem-BD is quite straighforward by the use of a **shell script  utility**  bundled with the platform. Its is advised to update as soon as you get the notification of new releases to fix bugs and get the latest functionalities. 
 These are the steps to perform such update:
    1. Shutdown the service
@@ -36,10 +34,12 @@ iochembd$   ./updater.sh
 ```
 
 The update process will start downloading pending patches and applying them one by one until it reaches the latest. 
-In case you get an error updating the platform, please copy the output text from the update tool and send it to contact@iochem-bd.org, we will contact you as soon as possible to aid you in this process.sdkgf
+In case you get an error updating the platform, please copy the output text from the update tool and send it to contact@iochem-bd.org, we will contact you as soon as possible to aid you in solving the possible errors in this process.
 
 ###4. Start the server###
-Start the server again to apply latest updates:
+If the update process ended successfully, the patch program will start the server automatically to apply latest updates.
+
+Otherwise, start it manually with the following commands:
 ```bash
 iochembd$   cd *IOCHEMBD_HOME*/apache-tomcat-7.0.37/bin
 iochembd$   ./startup.sh
