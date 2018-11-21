@@ -25,7 +25,7 @@ iochembd$  ps -eaf | grep tomcat
 Please review [backup script](https://documentation.iochem-bd.org/backup-policy.html) page on the documentation for more information about the backup process automation.
 
 ###3. Run update script###
-The update script has been upgraded, please download the new one [here](/files/updater.sh) and replace the one inside  *IOCHEMBD_HOME/updates* folder
+**The update script has been upgraded**, please download the new one *[here](/files/updater.sh)* and replace the one inside  *IOCHEMBD_HOME/updates* folder
 
 Then run the utility:
 ```bash
