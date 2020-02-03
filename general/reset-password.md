@@ -1,4 +1,4 @@
-On the login form you will see two links under the username/password textboxes, you have to click on the *Have you forgotten your password?* link. 
+On the login form you will see a link on the right hand of the password textbox, you have to click on the *Forgot it?* link. 
 
 ![Reset password link](/general/images/reset-password.png)
 

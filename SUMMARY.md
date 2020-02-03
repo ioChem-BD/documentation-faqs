@@ -9,7 +9,6 @@
 ## Administration
 
 * [Create administator account](/admin/add-administrator.md)
-* [Renew license file](/admin/renew-license-file.md)
 * [Update platform](/admin/update-current-distribution.md)
 
 ## Errors
