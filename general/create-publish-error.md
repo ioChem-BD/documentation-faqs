@@ -1,11 +1,14 @@
-This will usually happen the first time that we try to publish our
-calculation in the ioChem-BD system. When this message appears, 
+It can happen the first time we try to publish our calculations in ioChem-BD .
+
+If this message appears: 
 
 ![](/general/images/create-publish-error.png)
 
-it is warning that our user account has no community defined on the Browse module to publish to. You have to contact your ioChem-BD administrator and ask him/her:
+it is indicating that the user has no communities on the Browse module where to publish to. 
 
-1.  To [generate a community](https://documentation.iochem-bd.org/installation/publishing-endpoints-definition.html) where to publish your calculations (if it doesn't already exists),
-2.  then [add user](https://documentation.iochem-bd.org/installation/publishing-endpoints-definition.html#assign-community-publishers) to the community as administator.
+You have to contact your ioChem-BD administrator and request:
+
+  1.  To [generate a community](https://documentation.iochem-bd.org/installation/publishing-endpoints-definition.html) where to publish your calculations (if it doesn't already exists),
+  2.  then [add the user](https://documentation.iochem-bd.org/installation/publishing-endpoints-definition.html#assign-community-publishers) to the community as administator.
 
  
