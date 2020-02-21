@@ -1,4 +1,7 @@
-This Knowledge Base will gather most asked questions, common procedures and troubleshots of ioChem-BD software.
+# ioChem-BD Docs
 
-Please write to contact@iochem-bd.org in case you don't find here the information you are searching for.   
+## Important
+
+ioChem-BD documentacion has moved to a new location, please visit [https://docs.iochem-bd.org](https://docs.iochem-bd.org/en/latest/faqs/general.html)
+
 
